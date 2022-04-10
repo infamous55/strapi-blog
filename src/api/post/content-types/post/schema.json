@@ -25,6 +25,10 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "publish_at": {
+      "type": "datetime",
+      "required": false
     }
   }
 }
