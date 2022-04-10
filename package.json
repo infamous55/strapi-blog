@@ -1,8 +1,7 @@
 {
   "name": "strapi-blog",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
+  "version": "1.0.0",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -15,9 +14,6 @@
     "@strapi/strapi": "4.1.7",
     "better-sqlite3": "7.4.6",
     "strapi-plugin-slugify": "^2.2.2"
-  },
-  "author": {
-    "name": "A Strapi developer"
   },
   "strapi": {
     "uuid": "17766752-3065-40f7-a30f-8a6ce220d789"
