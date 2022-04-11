@@ -1,7 +1,6 @@
 module.exports = {
   "* * * * *": {
     task: async ({ strapi }) => {
-      console.log("Running task");
       const postsToBePublish = await strapi.db
         .query("api::post.post")
         .findMany({

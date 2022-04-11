@@ -13,7 +13,8 @@
     "@strapi/plugin-users-permissions": "4.1.7",
     "@strapi/strapi": "4.1.7",
     "better-sqlite3": "7.4.6",
-    "strapi-plugin-slugify": "^2.2.2"
+    "strapi-plugin-slugify": "^2.2.2",
+    "strapi-provider-upload-do": "^3.6.6"
   },
   "strapi": {
     "uuid": "17766752-3065-40f7-a30f-8a6ce220d789"
