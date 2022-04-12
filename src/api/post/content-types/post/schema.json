@@ -29,6 +29,12 @@
     "publish_at": {
       "type": "datetime",
       "required": false
+    },
+    "comments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::comment.comment",
+      "mappedBy": "post"
     }
   }
 }
