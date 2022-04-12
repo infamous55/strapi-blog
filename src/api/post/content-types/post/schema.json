@@ -35,6 +35,13 @@
       "relation": "oneToMany",
       "target": "api::comment.comment",
       "mappedBy": "post"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
